@@ -1,0 +1,61 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+  
+body{   
+   font-family: sans-serif;   
+}
+.navlink{
+    @apply mr-3 hover:text-red-400 transition duration-300 ;
+}
+.shadow-large{
+    box-shadow: 0px 2px 3px rgb(216, 214, 214) !important;
+}
+.search-input,.m-search-input{
+    @apply 
+          form-control relative flex-auto min-w-0 block 
+          w-full px-3 py-1.5 text-sm font-normal text-gray-700
+           bg-white bg-clip-padding border border-solid 
+           border-gray-300 rounded-lg transition ease-in-out m-0 
+           focus:text-gray-700 focus:bg-white focus:border-red-600
+            focus:outline-none  focus:shadow-none  ; 
+}
+.comment-input{
+    @apply 
+          form-control relative flex-auto min-w-0 block 
+          w-full px-3 py-3 text-sm font-normal text-gray-700
+           bg-white bg-clip-padding border border-solid 
+           border-gray-300 rounded-lg transition ease-in-out m-0 
+           focus:text-gray-700 focus:bg-white focus:border-red-600
+            focus:outline-none  focus:shadow-none  ; 
+} 
+.search-btn{
+   @apply   
+          btn inline-block px-6 py-2.5 bg-red-600
+          text-white font-medium text-xs leading-tight
+           uppercase rounded-lg shadow-md  hover:bg-red-600             
+            focus:outline-none focus:ring-0 active:bg-red-500 
+            active:shadow-lg transition duration-150 ease-in-out
+             flex items-center;
+}
+.banner-image{
+    filter: brightness(94%);
+}
+.shadow-effect{
+    background: rgba(0,0,0,0.2);
+}
+.related-news{     
+    flex-wrap: nowrap;
+    overflow-x:scroll;
+    -ms-overflow-style: none;
+}
+.related-news::-webkit-scrollbar{
+        display: none;
+        width: 0;      
+}
+.related-news > a{
+    flex: 0 0 auto;
+    width: 300px;
+}

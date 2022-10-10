@@ -4,9 +4,7 @@
 </p>
 Website Link  <a href='https://flex-news.000webhostapp.com/'> Click Here  </a>
 
-
-
- 
+![flex](https://user-images.githubusercontent.com/70179458/194786043-3d9e3f33-a412-479c-990d-871313df829d.PNG)
 
 ## About Laravel
 
